@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<style>
+
+
+.small-map{
+
+  overflow:hidden
+
+}
+.county {
+  fill: none;
+  /* fill: #417ea3; */
+}
+
+.county-boundary {
+  fill: none;
+ /* stroke: #cdcdcd;*/
+    stroke: #010101;
+  stroke-width: 2;
+    opacity: 0.5;
+}
+
+
+.scounty-boundary {
+  fill: none;
+  stroke: #a8a8a8;
+  stroke-width: 5;
+  opacity: 0.15;
+}
+
+.state-boundary {
+  fill: none;
+  stroke: #010101;
+  stroke-width: 10;
+}
+
+.county.selected {
+  fill: none;
+  stroke: #417ea3; /*#417ea3  f22933*/
+  stroke-width: 33;
+  opacity: 0.4;
+
+}
+
+.county-labels {
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  fill: #000;
+  fill-opacity: .6;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.region-label {
+  font-weight: 700;
+  text-transform: uppercase;
+  text-anchor: middle;
+  opacity: 0.9;
+  color: #000;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 85px;
+/*    line-height: 28px;*/
+  letter-spacing: 0.001em;
+}
+
+
+.title-label {
+  font-weight: 900;
+  text-transform: uppercase;
+  text-anchor: middle;
+  //opacity: 0.4;
+  color: #000;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 152px;
+/*    line-height: 28px;*/
+  letter-spacing: 0.001em;
+}
+
+.subtitle-label {
+  font-weight: 600;
+  text-transform: uppercase;
+  text-anchor: middle;
+  //opacity: 0.4;
+  color: #000;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 130px;
+/*    line-height: 28px;*/
+  letter-spacing: 0.001em;
+}
+
+
+
+.flex-container {
+background:#;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+
+</style>
+
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="https://d3js.org/topojson.v2.min.js"></script>
+<script src="map.js"></script>
+<script src="https://unpkg.com/d3-geo-scale-bar@1.1.1/build/d3-geo-scale-bar.min.js"></script>
+<!-- <script src="https://unpkg.com/d3-geo-scale-bar@1/build/d3-geo-scale-bar.min.js"></script> -->
+<!-- <script src="https://unpkg.com/d3-geo-scale-bar@0.3.0/build/d3-geo-scale-bar.js"></script> -->
+<!-- <script src="nyc_zoom.js"></script> -->
+
+<body>
+
+<div class="flex-container">
+
+</div>
+
+</body>
+</html>
